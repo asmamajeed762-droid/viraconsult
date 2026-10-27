@@ -1,30 +1,23 @@
-**ViraConsult — Business Consulting Website**
+# ViraConsult Website
 
-ViraConsult is a modern business website designed to present consulting services through a clean, professional, and user-friendly interface. The project focuses on responsive design, clear layouts, and a smooth browsing experience across different devices.
+A 6-page business website (Home, About Us, Services, Our Work, Insights, Contact Us) in a white and chocolate-brown theme.
 
- **Features**
+**Built with:** HTML, CSS (Tailwind CSS via CDN + `css/style.css`) and JavaScript (React 18 via CDN, no build step).
 
-- Modern UI: Clean and professional website design.
-- Responsive Layout: Adapts to desktop, tablet, and mobile screens.
-- Tailwind CSS: Used for efficient styling and responsive layouts.
-- User-Friendly Navigation: Simple and intuitive browsing experience.
-- Professional Presentation: Organized sections for business information and services.
+## Structure
+```
+index.html
+css/style.css
+js/tailwind.config.js   (Tailwind colours)
+js/app.js               (all pages and logic)
+images/                 (photos used on the site)
+```
 
-**Technologies Used**
+## Run locally
+Open `index.html` in a browser (internet needed for the CDN scripts and fonts).
 
-- HTML5
-- CSS3
-- Tailwind CSS
-- JavaScript
+## Publish on GitHub Pages
+Repo → Settings → Pages → Source: "Deploy from a branch" → Branch: `main` / `(root)` → Save.
 
-**Project Goal**
-
-The goal of ViraConsult is to create a professional online presence for a consulting business while keeping the design simple, accessible, and easy to navigate.
-
-
-**👩‍💻 Developer**
-
-Asima Majeed
-Frontend Developer
-
-This project reflects my practical experience in building responsive websites and creating modern, user-friendly interfaces for businesses.
+## Before going live
+Replace the sample company details, testimonials and Office/Hours text in `js/app.js`, and connect the contact form to a real service (it currently only shows a confirmation message).
