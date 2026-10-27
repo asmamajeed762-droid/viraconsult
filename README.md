@@ -21,9 +21,6 @@ ViraConsult is a modern business website designed to present consulting services
 
 The goal of ViraConsult is to create a professional online presence for a consulting business while keeping the design simple, accessible, and easy to navigate.
 
-**live Demo**
-
-businessgr.netlify.app
 
 **👩‍💻 Developer**
 
